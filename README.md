@@ -147,9 +147,9 @@ config = create_periodic_config(
 
 | Parameter | Description | Default | Range |
 |-----------|-------------|---------|-------|
-| `rank` | Tensor rank | Auto-detected | 3-20 |
-| `periods` | Period lengths | Auto-detected | [2, max_time] |
-| `window` | Smoothing window | Auto-sized | 3-7 |
+| `rank` | Tensor rank | 3 | 3-20 |
+| `periods` | Period lengths | 4 | [2, max_time] |
+| `window` | Smoothing window | 3 | 1-7 |
 | `penalty_smooth` | Smoothing weight | 100.0 | 10-1000 |
 | `penalty_periodic` | Periodic weight | 10.0 | 1-100 |
 | `penalty_l2` | L2 weight | 1.0 | 0.1-10 |
