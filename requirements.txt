@@ -1,0 +1,19 @@
+# P-TATD-JAX Dependencies
+# Core JAX ecosystem
+jax>=0.5.2
+jaxlib>=0.5.1
+optax>=0.2.4
+
+# Numerical computing
+numpy>=2.0.2
+scipy>=1.15.3
+
+# Progress bars and utilities
+tqdm>=4.67.1
+
+# Optional: for visualization and development
+matplotlib>=3.10.0
+pandas>=2.2.2
+
+# Optional: for GPU support (uncomment if needed)
+# jax[cuda12_pip] -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
